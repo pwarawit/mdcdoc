@@ -1,0 +1,333 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>การใช้งานเบื้องต้น &mdash; ModernCare ERP User 1.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="ModernCare ERP User 1.0 documentation" href="index.html" />
+    <link rel="next" title="การขาย" href="sales.html" />
+    <link rel="prev" title="คู่มือการใช้งานระบบ ERP สำหรับ ModernCare" href="index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="sales.html" title="การขาย"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="คู่มือการใช้งานระบบ ERP สำหรับ ModernCare"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">ModernCare ERP User 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="basic-usage">
+<span id="id1"></span><h1>การใช้งานเบื้องต้น<a class="headerlink" href="#basic-usage" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="login">
+<span id="id2"></span><h2>ล็อกอินเข้าระบบ<a class="headerlink" href="#login" title="Permalink to this headline">¶</a></h2>
+<p>การเข้าสู่ระบบ ทำได้โดยใช้เว็บเบราว์เซอร์  Chrome หรือ Firefox
+(ไม่แนะนำให้ใช้ Internet Explorer) และเข้าไปที่ <a class="reference external" href="http://erp.moderncare.co.th:8069">http://erp.moderncare.co.th:8069</a></p>
+<p>หากพบว่ามีช่องตัวเลือก Database: อยู่มุมด้านบนขวามือ หมายความว่า ณ เวลานั้น
+ระบบมีฐานข้อมูลมากกว่าหนึ่งอัน เราสามารถเลือกเข้าใช้ฐานข้อมูลที่ต้องการได้</p>
+<table border="1" class="docutils">
+<caption>ฐานข้อมูลที่สามารถใช้ได้</caption>
+<colgroup>
+<col width="29%" />
+<col width="71%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">ฐานข้อมูล</th>
+<th class="head">รายละเอียด</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>mdc_prod</td>
+<td>ฐานข้อมูลสำหรับใช้งานจริง</td>
+</tr>
+<tr class="row-odd"><td>mdc_training</td>
+<td>ฐานข้อมูลสำหรับเพื่อการทดสอบ</td>
+</tr>
+</tbody>
+</table>
+<p>ป้อน Username และ Password ตามที่ได้รับจากผู้ควบคุมระบบ แล้วคลิ้ก Log in หากการเข้าสู่ระบบสำเร็จ จะพบกับเมนูดังรูป โดยมีชื่อผู้ใช้อยู่ที่มุมบนขวาของจอภาพ</p>
+</div>
+<div class="section" id="user-preference">
+<span id="id3"></span><h2>การตั้งค่าส่วนตัวผู้ใช้<a class="headerlink" href="#user-preference" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>ชื่อของผู้ใช้ที่กำลังใช้งานระบบ ERP อยู่ จะปรากฎอยู่มุมบนขวาของหน้าจอเว็บเบราว์เซอร์</li>
+<li>คลิ้กที่ชื่อผู้ใช้ หรือที่เครื่องหมายลูกศรลง เพื่อเปิดเมนูตั้งค่าส่วนตัว เลือกหัวข้อ Preference</li>
+<li>จะปรากฎไดอะล็อกบ็อกซ์ Change My Preference ขึ้นมา</li>
+<li>รายละเอียดการตั้งค่าต่างๆ ประกอบด้วย</li>
+</ol>
+<table border="1" class="docutils">
+<colgroup>
+<col width="11%" />
+<col width="89%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">ตัวเลือก</th>
+<th class="head">รายละเอียด</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Language</td>
+<td>เลือกภาษาของเมนู และภาษาในการแสดงผลข้อมูล</td>
+</tr>
+<tr class="row-odd"><td>Timezone</td>
+<td>ให้เลือก Asia/Bangkok</td>
+</tr>
+<tr class="row-even"><td>Email Preference</td>
+<td>อีเมล์ (ไม่ได้ใช้งาน)</td>
+</tr>
+<tr class="row-odd"><td>รูปภาพ</td>
+<td>ผู้สามารถอัพโหลดรูปภาพแทนตัวได้ โดยเอาเมาส์ไปชี้ที่รูปภาพ จะพบเมนูคำว่า Edit ปรากฎขึ้นมา เมื่อคลิ้กเมนู Edit จะเปิด File ไดอะล็อกให้ผู้ใช้เลือกไฟล์รูปภาพ</td>
+</tr>
+<tr class="row-even"><td>User Name</td>
+<td>ชื่อของผู้ใช้ในระบบ สามารถมีช่องว่างได้ ใส่ได้ทั้งชื่อและนามสกุล (ในตัวอย่างคือ Administrator)</td>
+</tr>
+<tr class="row-odd"><td>Login Name</td>
+<td>ชื่อที่ใช้ในการเข้าสู่ระบบ ควรเป็นภาษาอังกฤษตัวเล็ก (ในตัวอย่างคือชื่อที่อยู่ภายในวงเล็บ คือ admin)</td>
+</tr>
+<tr class="row-even"><td>Change Password</td>
+<td>เปลี่ยนรหัสผ่านส่วนตัว รหัสผ่านเป็นแบบ case-sensitive คือตัวอักษรพิมพ์ใหญ่กับตัวพิมพ์เล็กแตกต่างกัน โดยต้องใส่รหัสผ่านเดิมให้ถูกต้องก่อนและต้องยืนยันรหัสผ่านใหม่ด้วย</td>
+</tr>
+<tr class="row-odd"><td>Save</td>
+<td>บันทึกการแก้ไขเปลี่ยนแปลง user preference</td>
+</tr>
+<tr class="row-even"><td>Cancel</td>
+<td>ยกเลิกการแก้ไขเปลี่ยนแปลง user preference หรือจะกดปุ่ม Esc ก็ได้ผลเช่นเดียวกัน</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<ul class="last simple">
+<li>ผู้ใช้ไม่สามารถเปลี่ยน User Name หรือ Login Name ได้ด้วยตัวเอง ต้องติดต่อผู้ควบคุมระบบให้เปลี่ยนให้</li>
+<li>การเปลี่ยนแปลง user preference บางอย่าง อาจจำเป็นต้อง log out แล้ว log in เข้าไปใหม่ก่อนที่จะมีผลใช้งานได้</li>
+</ul>
+</div>
+</div>
+<div class="section" id="screen-elements">
+<span id="id4"></span><h2>การใช้งานหน้าจอเบื้องต้น<a class="headerlink" href="#screen-elements" title="Permalink to this headline">¶</a></h2>
+<p>หน้าจอโดยทั่วไปของระบบ OpenERP จะประกอบไปด้วยองค์ประกอบดังนี้</p>
+<ol class="arabic">
+<li><p class="first"><strong>ผู้ใช้ (User)</strong> เป็นชื่อและรูปภาพของผู้ใช้งานในขณะนั้น โดยหากคลิ้กที่ส่วนนี้ จะเป็นเมนูที่ใช้ในการตั้งค่าส่วนตัวของผู้ใช้ (Preference) เมนูความช่วยเหลือ (Help) รายละเอียดเวอร์ชั่นของ OpenERP (About) หรือการ ออกจากระบบ</p>
+</li>
+<li><p class="first"><strong>ข้อความ (Message)</strong> ไอคอนที่ผู้ใช้สามารถเขียนและส่งข้อความได้</p>
+</li>
+<li><p class="first"><strong>เมนูหลัก (Main Menu)</strong> เมนูหลักด้านบนจะถูกแบ่งเป็นกลุ่มหลักๆ ตามระบบงานที่ได้มีการติดตั้งไว้ และตามที่ผู้ใช้มีสิทธิ์ในการเข้าใช้งาน ดังนั้นผู้ใช้แต่ละคนอาจจะมองเห็นเมนูหลักแตกต่างกันไปได้</p>
+</li>
+<li><p class="first"><strong>แถบเมนูย่อย (Menu Pane)</strong> เมื่อเลือกเมนูหลักแล้ว แถบเมนูด้านซ้ายมือจะเปลี่ยนแปลงไปตามเมนูหลักที่เลือกไว้ เมนูที่จะปรากฎในแถบเมนูย่อยนี้ ก็จะขึ้นอยู่กับสิทธิ์การใช้งานของผู้ใช้ด้วย</p>
+</li>
+<li><dl class="first docutils">
+<dt><strong>ส่วนหัวของเอกสาร (View Header)</strong> พื้นที่ส่วนนี้นอกจากจะบอกชื่อของเอกสาร แล้ว ยังอาจมีองค์ประกอบอื่นอีกด้วย อาทิเช่น</dt>
+<dd><ul class="first last simple">
+<li>ช่องค้นหา (Search Box)</li>
+<li>ปุ่มหรือลิ้งค์คำสั่งเพื่อทำงานอย่างใดอย่างหนึ่ง</li>
+<li>ตัวเลือกมุมมองเอกสาร</li>
+<li>รายละเอียดของส่วนหัวของเอกสาร จะกล่าวถึงในคู่มือหัวข้อนี้โดยเฉพาะ</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first"><strong>ตัวเอกสาร (View Body)</strong> เป็นพื้นที่หลักในการแสดงผลเอกสารที่กำลังใช้งานอยู่ ซึ่งจะแตกต่างกันไปสำหรับเอกสารแต่ละชนิด</p>
+</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">ทั้งเมนูหลักและเมนูย่อย อาจจะปรากฎอยู่ในรูปแบบภาษาอังกฤษ หรือภาษาไทยก็ได้ โดยขึ้นอยู่กับภาษาของผู้ใช้ที่เลือกเอาไว้ในตอนตั้งค่าส่วนตัว</p>
+</div>
+</div>
+<div class="section" id="view-header">
+<span id="id5"></span><h2>การใช้งานส่วนหัวของเอกสาร<a class="headerlink" href="#view-header" title="Permalink to this headline">¶</a></h2>
+<p>ส่วนหัวของเอกสารหรือ View Header อาจมีองค์ประกอบที่แตกต่างกันไปได้หลายรูปแบบ ขึ้นอยู่กับชนิดของเอกสารที่กำลังแสดง</p>
+<ol class="arabic">
+<li><p class="first"><strong>ชื่อเอกสาร (View Name)</strong> เป็นข้อความบ่งบอกชนิดหรือประเภทของเอกสารที่กำลังแสดงอยู่</p>
+</li>
+<li><p class="first"><strong>ช่องค้นหา (Search Box)</strong> มีไว้เพื่อค้นหาเอกสารหรือรายการ ในกรณีที่มีจำนวนมากกว่าที่ต้องการ</p>
+</li>
+<li><p class="first"><strong>ปุ่มทำงาน (Action Button)</strong> มีลักษณะเป็นปุ่ม หรือเป็นลิ้งค์ ที่ผู้ใช้สามารถคลิ้กเลือกเพื่อให้ทำงานอย่างใดอย่างหนึ่งที่เกี่ยวข้องกับเอกสารได้</p>
+<blockquote>
+<div><p>โดยทั่วไปแล้ว ปุ่มสีแดง จะเป็นการทำงานหลัก ที่มักจะถูกใช้อยู่บ่อยๆ ในขณะที่ลิ้งค์ อาจจะมีโอกาสได้ใช้งานน้อยกว่า บางครั้งลิ้งค์ทำงานอาจจะปรากฎเฉพาะในมุมมองแบบใดแบบหนึ่งเท่านั้น</p>
+</div></blockquote>
+</li>
+<li><p class="first"><strong>รูปแบบมุมมอง (View Type)</strong> สำหรับเอกสารบางแบบ ผู้ใช้สามารถเลือกรูปแบบการแสดงข้อมูลภายในส่วนตัวเอกสาร (View Body) ได้ โดยการกดเลือกปุ่มด้านขวามือ รูปแบบของวิวจะเหมาะกับลักษณะเอกสารที่แตกต่างกัน และอาจส่งผลให้มีการแสดงหรือมีการซ่อน ปุ่มหรือลิงค์ทำงานบางอย่างได้ด้วย</p>
+</li>
+</ol>
+<table border="1" class="docutils">
+<caption>รูปแบบมุมมอง (วิว)</caption>
+<colgroup>
+<col width="29%" />
+<col width="71%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">รูปแบบ</th>
+<th class="head">รายละเอียด</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>มุมมองแบบรายการ (List view)</td>
+<td>ลิสท์วิวจะเป็นการแสดงเอกสารหลายๆ ฉบับพร้อมกันเป็นรายการ หนึ่งรายการแสดงเป็นหนึ่งบรรทัด</td>
+</tr>
+<tr class="row-odd"><td>มุมมองแบบฟอร์ม (Form view)</td>
+<td>ฟอร์มวิว จะเป็นการแสดงเอกสาร <strong>ครั้งละหนึ่ง</strong> รายการ โดยมีรายละเอียดครบถ้วน</td>
+</tr>
+<tr class="row-even"><td>มุมมองแบบบัตรคันบัง (Kanban view)</td>
+<td>บัตรคันบัง จะแสดงรูป พร้อมข้อมูลเล็กน้อย</td>
+</tr>
+<tr class="row-odd"><td>มุมมองแบบปฎิทิน (Calendar view)</td>
+<td>ปฎิทิน เหมาะจะแสดงรายการที่เกี่ยวข้องกับวันที่ ว่าเอกสารฉบับไหน สร้าง/แก้่ไข/ครบกำหนด เมื่อใด</td>
+</tr>
+<tr class="row-even"><td>มุมมองแบบกราฟ (Graph view)</td>
+<td>มุมมองแบบกราฟ เหมาะสำหรับการแสดงผลสรุปรวมยอดของเอกสารทั้งหมด</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>ตัวเลขที่ปรากฎอยู่หน้ากลุ่มปุ่มเลือกรูปแบบมุมมอง จะเป็นตัวบอกว่ามีจำนวนเอกสารทั้งหมดกี่รายการ และที่กำลังแสดงอยู่มีกี่รายการ</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<ol class="arabic simple">
+<li><strong>ปุ่มพิมพ์ (Print) และปุ่มเพิ่มเติม (More)</strong> ปุ่มทั้งสองนี้จะปรากฎขึ้นในบางมุมมอง เพื่อให้ผู้ใช้สามารถเลือกการทำงานอื่นๆ เพิ่มเติมได้ เช่น พิมพ์เอกสาร ลบ หรือทำสำเนาเอกสารเป็นต้น</li>
+</ol>
+<div class="section" id="list-view">
+<span id="id6"></span><h3>มุมมองแบบรายการ (List view)<a class="headerlink" href="#list-view" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>เหมาะกับการดูหรือทำงานกับเอกสารแบบเดียวกันหลายๆ ฉบับพร้อมกัน</li>
+<li>เอกสารแต่ละฉบับจะมีรายละเอียดแสดงเป็นตาราง เราสามารถคลิ้กที่หัวตารางเพื่อให้เรียงเอกสารตามแต่ละฟิล์ดได้ จากรูปข้างบน เป็นการเรียงลำดับตาม Customer</li>
+<li>เอกสารฉบับที่ต้องการความสนใจเป็นพิเศษ จะแสดงผลเป็นสีน้ำเงิน</li>
+<li>หากคลิ้กที่เอกสารฉบับใดฉบับหนึ่ง จะเป็นการเปิดเอกสารนั้นในมุมมองแบบฟอร์ม</li>
+<li>ผู้ใช้สามารถทำงานกับเอกสารครั้งละหลายๆ ฉบับได้ โดยการเลือกเช็คบ็อกซ์ หน้ารายการเอกสาร แล้วเลือกคำสั่งการทำงานจากปุ่มพิมพ์ หรือปุ่มเพิ่มเติม</li>
+<li>ในเอกสารบางประเภท อาจมีการสรุปยอดรวมไว้ด้านท้ายของตารางด้วย</li>
+<li>เราสามารถใช้งานมุมมองนี้ร่วมกับช่องค้นหาด้านบนได้ด้วย โดยรายการเอกสารที่แสดง จะเป็นไปตามเงื่อนไขการค้นหาที่ระบุไว้</li>
+<li>หากข้อมูลมีจำนวนรายการมากเกินกว่าที่จะแสดงได้ในหน้าเดียว จะมีลูกศรซ้ายขวาปรากฎขึ้น ช่วยให้เปลี่ยนไปดูข้อมูลในหน้าต่อๆ ไปได้สะดวกขึ้น</li>
+<li>ลิ้งค์คำสั่ง <strong>Import</strong> หรือ <strong>นำเข้า</strong>  จะปรากฎในมุมมองแบบรายการเท่านั้น</li>
+</ul>
+</div>
+<div class="section" id="form-view">
+<span id="id7"></span><h3>มุมมองแบบฟอร์ม (Form view)<a class="headerlink" href="#form-view" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>มุมมองนี้จะเจาะจงแสดงเอกสารเพียงฉบับเดียวเท่านั้น</li>
+<li>หากผู้ใช้คลิ้กเลือกรายการเอกสารฉบับใดฉบับหนึ่งจากมุมมองอื่น ระบบจะเปิดเอกสารฉบับนั้นขึ้นมาในมุมมองแบบฟอร์ม</li>
+<li>ในส่วนชื่อเอกสาร จะระบุหมายเลขเอกสาร (เช่น SO004) และมีลิงค์สำหรับกลับไปดูเอกสารในมุมมองที่ผ่านมาได้ด้วย (เช่นลิ้งค์ Sales Orders)</li>
+<li>ปุ่มลูกศรซ้าย-ขวา ที่อยู่ด้านขวามือ จะช่วยเปิดเอกสารฉบับก่อนหน้า หรือฉบับถัดไปได้ โดยไม่จำเป็นต้องเปลี่ยนมุมมอง</li>
+<li>ตัวเลขจำนวนที่อยู่ด้านข้าง จะบอกว่า ขณะนั้นกำลังเปิดดูเอกสารฉบับที่เท่าไหร่จากจำนวนที่อยู่ในหน้ามุมมองก่อนหน้านั้น (จากตัวอย่างข้างต้น “3 / 5” หมายความว่ากำลังดูฉบับที่ 3 จาก 5 ฉบับ ไม่ได้หมายความว่า มีเอกสารทั้งหมด 5 ฉบับ แต่มุมมองที่ผ่านมามีเอกสาร 5 ฉบับ)</li>
+<li>การแก้ไขรายละเอียดของเอกสาร จำเป็นจะต้องเปิดเอกสารฉบับนั้นในมุมมองแบบฟอร์มก่อน จึงจะมองเห็นปุ่มแก้ไข (Edit) ปรากฎขึ้นมา</li>
+<li>สำหรับเอกสารบางแบบ มุมมองนี้อาจเพิ่มปุ่มสั่งงานขึ้นอีกแถวหนึ่ง ตามกระบวนการทำงานที่เป็นไปได้ ปุ่มสั่งงานเหล่านี้จะอยู่ด้านซ้ายมือ บางปุ่มอาจเป็นสีแดง แสดงให้เห็นว่าเป็นขั้นตอนการทำงานหลัก</li>
+<li>เอกสารบางแบบจะมีหลาย <strong>“สถานะ” (Status)</strong> แถบข้อมูลด้านขวามือจะแสดงสถานะปัจจุบันของเอกสารฉบับนั้นๆ รวมถึงลำดับขั้นตอนของสถานะเหล่านั้นด้วย</li>
+</ul>
+</div>
+<div class="section" id="kanban-view">
+<span id="id8"></span><h3>มุมมองแบบบัตรคันบัง (Kanban view)<a class="headerlink" href="#kanban-view" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>มุมมองนี้ จะจัดเรียงเอกสารแต่ละฉบับ หรือข้อมูลแต่ละรายการในลักษณะบัตรคันบัง หรือเหมือนเป็นแผ่นสี่เหลี่ยม</li>
+<li>มุมมองนี้เหมาะสำหรับข้อมูลที่มีรูปภาพประกอบ เพราะแต่ละรายการจะแสดงข้อมูลได้เพียงเล็กน้อยเท่านั้น</li>
+<li>ผู้ใช้ไม่สามารถทำงานกับเอกสารหรือข้อมูลในมุมมองนี้ได้โดยตรง จำเป็นต้อง “คลิ้กเลือก” ข้อมูลรายการใดรายการหนึ่งเสียก่อน ซึ่งจะทำให้ระบบแสดงข้อมูลที่เลือกไว้ ในมุมมองแบบฟอร์มต่อไป</li>
+<li>มุมมองแบบคันบัง จะไม่แสดงจำนวนรายการทั้งหมด ผู้ใช้จะต้องเลื่อนหน้าจอลงไปจนสุด แล้วคลิ้กเลือกปุ่ม Show More… ซึ่งอาจไม่สะดวกนักหากมีข้อมูลจำนวนมาก</li>
+<li>แนะนำให้ใช้ร่วมกับช่องค้นหาข้อมูล</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">การใช้งานเบื้องต้น</a><ul>
+<li><a class="reference internal" href="#login">ล็อกอินเข้าระบบ</a></li>
+<li><a class="reference internal" href="#user-preference">การตั้งค่าส่วนตัวผู้ใช้</a></li>
+<li><a class="reference internal" href="#screen-elements">การใช้งานหน้าจอเบื้องต้น</a></li>
+<li><a class="reference internal" href="#view-header">การใช้งานส่วนหัวของเอกสาร</a><ul>
+<li><a class="reference internal" href="#list-view">มุมมองแบบรายการ (List view)</a></li>
+<li><a class="reference internal" href="#form-view">มุมมองแบบฟอร์ม (Form view)</a></li>
+<li><a class="reference internal" href="#kanban-view">มุมมองแบบบัตรคันบัง (Kanban view)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">คู่มือการใช้งานระบบ ERP สำหรับ ModernCare</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="sales.html"
+                        title="next chapter">การขาย</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/basic_usage.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="sales.html" title="การขาย"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="คู่มือการใช้งานระบบ ERP สำหรับ ModernCare"
+             >previous</a> |</li>
+        <li><a href="index.html">ModernCare ERP User 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2014, InfoMobius.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.3.
+    </div>
+  </body>
+</html>

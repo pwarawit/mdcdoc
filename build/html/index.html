@@ -23,7 +23,8 @@
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
-    <link rel="top" title="ModernCare ERP User 1.0 documentation" href="#" /> 
+    <link rel="top" title="ModernCare ERP User 1.0 documentation" href="#" />
+    <link rel="next" title="การใช้งานเบื้องต้น" href="basic_usage.html" /> 
   </head>
   <body>
     <div class="related">
@@ -32,6 +33,9 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="basic_usage.html" title="การใช้งานเบื้องต้น"
+             accesskey="N">next</a> |</li>
         <li><a href="#">ModernCare ERP User 1.0 documentation</a> &raquo;</li> 
       </ul>
     </div>  
@@ -43,134 +47,28 @@
             
   <div class="section" id="erp-moderncare">
 <span id="root-index"></span><h1>คู่มือการใช้งานระบบ ERP สำหรับ ModernCare<a class="headerlink" href="#erp-moderncare" title="Permalink to this headline">¶</a></h1>
-<p>วันที่ปรับปรุงล่าสุด December 27, 2014</p>
+<p>วันที่ปรับปรุงล่าสุด December 31, 2014</p>
 <div class="toctree-wrapper compound">
-<ul class="simple">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="basic_usage.html">การใช้งานเบื้องต้น</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="basic_usage.html#login">ล็อกอินเข้าระบบ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basic_usage.html#user-preference">การตั้งค่าส่วนตัวผู้ใช้</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basic_usage.html#screen-elements">การใช้งานหน้าจอเบื้องต้น</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basic_usage.html#view-header">การใช้งานส่วนหัวของเอกสาร</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="sales.html">การขาย</a></li>
+<li class="toctree-l1"><a class="reference internal" href="warehouse.html">การจัดการคลังสินค้า</a></li>
+<li class="toctree-l1"><a class="reference internal" href="master_data.html">การปรับปรุงข้อมูลอ้างอิง</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="master_data.html#product-master">ข้อมูลสินค้า</a></li>
+<li class="toctree-l2"><a class="reference internal" href="master_data.html#customer-master">ข้อมูลลูกค้า</a></li>
+<li class="toctree-l2"><a class="reference internal" href="master_data.html#price-master">ข้อมูลราคาขาย</a></li>
+<li class="toctree-l2"><a class="reference internal" href="master_data.html#other-master">ข้อมูลอ้างอิงอื่นๆ</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="reports.html">การใช้รายงาน</a></li>
 </ul>
 </div>
-<div class="section" id="basic-usage">
-<span id="id1"></span><h2>การใช้งานเบื้องต้น<a class="headerlink" href="#basic-usage" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="login">
-<span id="id2"></span><h3>ล็อกอินเข้าระบบ<a class="headerlink" href="#login" title="Permalink to this headline">¶</a></h3>
-<p>การเข้าสู่ระบบ ทำได้โดยใช้เว็บเบราว์เซอร์  Chrome หรือ Firefox
-(ไม่แนะนำให้ใช้ Internet Explorer) และเข้าไปที่ <a class="reference external" href="http://erp.moderncare.co.th:8069">http://erp.moderncare.co.th:8069</a></p>
-<p>หากพบว่ามีช่องตัวเลือก Database: อยู่มุมด้านบนขวามือ หมายความว่า ณ เวลานั้น
-ระบบมีฐานข้อมูลมากกว่าหนึ่งอัน เราสามารถเลือกเข้าใช้ฐานข้อมูลที่ต้องการได้</p>
-<table border="1" class="docutils">
-<caption>ฐานข้อมูลที่สามารถใช้ได้</caption>
-<colgroup>
-<col width="29%" />
-<col width="71%" />
-</colgroup>
-<thead valign="bottom">
-<tr class="row-odd"><th class="head">ฐานข้อมูล</th>
-<th class="head">รายละเอียด</th>
-</tr>
-</thead>
-<tbody valign="top">
-<tr class="row-even"><td>mdc_prod</td>
-<td>ฐานข้อมูลสำหรับใช้งานจริง</td>
-</tr>
-<tr class="row-odd"><td>mdc_training</td>
-<td>ฐานข้อมูลสำหรับเพื่อการทดสอบ</td>
-</tr>
-</tbody>
-</table>
-<p>ป้อน Username และ Password ตามที่ได้รับจากผู้ควบคุมระบบ แล้วคลิ้ก Log in หากการเข้าสู่ระบบสำเร็จ จะพบกับเมนูดังรูป โดยมีชื่อผู้ใช้อยู่ที่มุมบนขวาของจอภาพ</p>
-</div>
-<div class="section" id="user-preference">
-<span id="id3"></span><h3>การตั้งค่าส่วนตัวผู้ใช้ (User Preference)<a class="headerlink" href="#user-preference" title="Permalink to this headline">¶</a></h3>
-<ol class="arabic simple">
-<li>ชื่อของผู้ใช้ที่กำลังใช้งานระบบ ERP อยู่ จะปรากฎอยู่มุมบนขวาของหน้าจอเว็บเบราว์เซอร์</li>
-<li>คลิ้กที่ชื่อผู้ใช้ หรือที่เครื่องหมายลูกศรลง เพื่อเปิดเมนูตั้งค่าส่วนตัว เลือกหัวข้อ Preference</li>
-<li>จะปรากฎไดอะล็อกบ็อกซ์ Change My Preference ขึ้นมา</li>
-<li>รายละเอียดการตั้งค่าต่างๆ ประกอบด้วย</li>
-</ol>
-<table border="1" class="docutils">
-<colgroup>
-<col width="11%" />
-<col width="89%" />
-</colgroup>
-<thead valign="bottom">
-<tr class="row-odd"><th class="head">ตัวเลือก</th>
-<th class="head">รายละเอียด</th>
-</tr>
-</thead>
-<tbody valign="top">
-<tr class="row-even"><td>Language</td>
-<td>เลือกภาษาของเมนู และภาษาในการแสดงผลข้อมูล</td>
-</tr>
-<tr class="row-odd"><td>Timezone</td>
-<td>ให้เลือก Asia/Bangkok</td>
-</tr>
-<tr class="row-even"><td>Email Preference</td>
-<td>อีเมล์ (ไม่ได้ใช้งาน)</td>
-</tr>
-<tr class="row-odd"><td>รูปภาพ</td>
-<td>ผู้สามารถอัพโหลดรูปภาพแทนตัวได้ โดยเอาเมาส์ไปชี้ที่รูปภาพ จะพบเมนูคำว่า Edit ปรากฎขึ้นมา เมื่อคลิ้กเมนู Edit จะเปิด File ไดอะล็อกให้ผู้ใช้เลือกไฟล์รูปภาพ</td>
-</tr>
-<tr class="row-even"><td>User Name</td>
-<td>ชื่อของผู้ใช้ในระบบ สามารถมีช่องว่างได้ ใส่ได้ทั้งชื่อและนามสกุล (ในตัวอย่างคือ Administrator)</td>
-</tr>
-<tr class="row-odd"><td>Login Name</td>
-<td>ชื่อที่ใช้ในการเข้าสู่ระบบ ควรเป็นภาษาอังกฤษตัวเล็ก (ในตัวอย่างคือชื่อที่อยู่ภายในวงเล็บ คือ admin)</td>
-</tr>
-<tr class="row-even"><td>Change Password</td>
-<td>เปลี่ยนรหัสผ่านส่วนตัว รหัสผ่านเป็นแบบ case-sensitive คือตัวอักษรพิมพ์ใหญ่กับตัวพิมพ์เล็กแตกต่างกัน โดยต้องใส่รหัสผ่านเดิมให้ถูกต้องก่อนและต้องยืนยันรหัสผ่านใหม่ด้วย</td>
-</tr>
-<tr class="row-odd"><td>Save</td>
-<td>บันทึกการแก้ไขเปลี่ยนแปลง user preference</td>
-</tr>
-<tr class="row-even"><td>Cancel</td>
-<td>ยกเลิกการแก้ไขเปลี่ยนแปลง user preference หรือจะกดปุ่ม Esc ก็ได้ผลเช่นเดียวกัน</td>
-</tr>
-</tbody>
-</table>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<ul class="last simple">
-<li>ผู้ใช้ไม่สามารถเปลี่ยน User Name หรือ Login Name ได้ด้วยตัวเอง ต้องติดต่อผู้ควบคุมระบบให้เปลี่ยนให้</li>
-<li>การเปลี่ยนแปลง user preference บางอย่าง อาจจำเป็นต้อง log out แล้ว log in เข้าไปใหม่ก่อนที่จะมีผลใช้งานได้</li>
-</ul>
-</div>
-</div>
-<div class="section" id="basic-screen-elements">
-<span id="id4"></span><h3>การใช้งานหน้าจอเบื้องต้น (Basic Screen Elements)<a class="headerlink" href="#basic-screen-elements" title="Permalink to this headline">¶</a></h3>
-<p>หน้าจอโดยทั่วไปของระบบ OpenERP จะประกอบไปด้วยองค์ประกอบดังนี้</p>
-<ol class="arabic">
-<li><p class="first"><strong>ผู้ใช้ (User)</strong> เป็นชื่อและรูปภาพของผู้ใช้งานในขณะนั้น โดยหากคลิ้กที่ส่วนนี้ จะเป็นเมนูที่ใช้ในการตั้งค่าส่วนตัวของผู้ใช้ (Preference) เมนูความช่วยเหลือ (Help) รายละเอียดเวอร์ชั่นของ OpenERP (About) หรือการ ออกจากระบบ</p>
-</li>
-<li><p class="first"><strong>ข้อความ (Message)</strong> ไอคอนที่ผู้ใช้สามารถเขียนและส่งข้อความได้</p>
-</li>
-<li><p class="first"><strong>เมนูหลัก (Main Menu)</strong> เมนูหลักด้านบนจะถูกแบ่งเป็นกลุ่มหลักๆ ตามระบบงานที่ได้มีการติดตั้งไว้ และตามที่ผู้ใช้มีสิทธิ์ในการเข้าใช้งาน ดังนั้นผู้ใช้แต่ละคนอาจจะมองเห็นเมนูหลักแตกต่างกันไปได้</p>
-</li>
-<li><p class="first"><strong>แถบเมนูย่อย (Menu Pane)</strong> เมื่อเลือกเมนูหลักแล้ว แถบเมนูด้านซ้ายมือจะเปลี่ยนแปลงไปตามเมนูหลักที่เลือกไว้ เมนูที่จะปรากฎในแถบเมนูย่อยนี้ ก็จะขึ้นอยู่กับสิทธิ์การใช้งานของผู้ใช้ด้วย</p>
-</li>
-<li><dl class="first docutils">
-<dt><strong>ส่วนหัวของเอกสาร (View Header)</strong> พื้นที่ส่วนนี้นอกจากจะบอกชื่อของเอกสาร แล้ว ยังอาจมีองค์ประกอบอื่นอีกด้วย อาทิเช่น</dt>
-<dd><ul class="first last simple">
-<li>ช่องค้นหา (Search Box)</li>
-<li>ปุ่มหรือลิ้งค์คำสั่งเพื่อทำงานอย่างใดอย่างหนึ่ง</li>
-<li>ตัวเลือกมุมมองเอกสาร</li>
-<li>รายละเอียดของส่วนหัวของเอกสาร จะกล่าวถึงในคู่มือหัวข้อนี้โดยเฉพาะ</li>
-</ul>
-</dd>
-</dl>
-</li>
-<li><p class="first"><strong>ตัวเอกสาร (View Body)</strong> เป็นพื้นที่หลักในการแสดงผลเอกสารที่กำลังใช้งานอยู่ ซึ่งจะแตกต่างกันไปสำหรับเอกสารแต่ละชนิด</p>
-</li>
-</ol>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">ทั้งเมนูหลักและเมนูย่อย อาจจะปรากฎอยู่ในรูปแบบภาษาอังกฤษ หรือภาษาไทยก็ได้ โดยขึ้นอยู่กับภาษาของผู้ใช้ที่เลือกเอาไว้ในตอนตั้งค่าส่วนตัว</p>
-</div>
-</div>
-</div>
-</div>
-<div class="section" id="heading-level-1">
-<h1>Heading Level 1<a class="headerlink" href="#heading-level-1" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference internal" href="#login"><em>ล็อกอินเข้าระบบ</em></a></p>
-<p><a class="reference internal" href="#basic-screen-elements"><em>การใช้งานหน้าจอเบื้องต้น (Basic Screen Elements)</em></a></p>
 <div class="section" id="heading-level-2">
 <h2>Heading Level 2<a class="headerlink" href="#heading-level-2" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="heading-level-3">
@@ -188,14 +86,6 @@
 </div>
 </div>
 </div>
-<div class="section" id="indices-and-tables">
-<h3>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li><a class="reference internal" href="genindex.html"><em>Index</em></a></li>
-<li><a class="reference internal" href="py-modindex.html"><em>Module Index</em></a></li>
-<li><a class="reference internal" href="search.html"><em>Search Page</em></a></li>
-</ul>
-</div>
 </div>
 </div>
 
@@ -208,15 +98,6 @@
   <h3><a href="#">Table Of Contents</a></h3>
   <ul>
 <li><a class="reference internal" href="#">คู่มือการใช้งานระบบ ERP สำหรับ ModernCare</a><ul>
-<li><a class="reference internal" href="#basic-usage">การใช้งานเบื้องต้น</a><ul>
-<li><a class="reference internal" href="#login">ล็อกอินเข้าระบบ</a></li>
-<li><a class="reference internal" href="#user-preference">การตั้งค่าส่วนตัวผู้ใช้ (User Preference)</a></li>
-<li><a class="reference internal" href="#basic-screen-elements">การใช้งานหน้าจอเบื้องต้น (Basic Screen Elements)</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a class="reference internal" href="#heading-level-1">Heading Level 1</a><ul>
 <li><a class="reference internal" href="#heading-level-2">Heading Level 2</a><ul>
 <li><a class="reference internal" href="#heading-level-3">Heading Level 3</a><ul>
 <li><a class="reference internal" href="#heading-level-4">Heading Level 4</a><ul>
@@ -231,13 +112,15 @@
 </li>
 </ul>
 </li>
-<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
 
+  <h4>Next topic</h4>
+  <p class="topless"><a href="basic_usage.html"
+                        title="next chapter">การใช้งานเบื้องต้น</a></p>
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/index.txt"
@@ -266,6 +149,9 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              >index</a></li>
+        <li class="right" >
+          <a href="basic_usage.html" title="การใช้งานเบื้องต้น"
+             >next</a> |</li>
         <li><a href="#">ModernCare ERP User 1.0 documentation</a> &raquo;</li> 
       </ul>
     </div>
