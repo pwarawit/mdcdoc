@@ -51,9 +51,44 @@
             
   <div class="section" id="sales">
 <span id="id1"></span><h1>การขาย<a class="headerlink" href="#sales" title="Permalink to this headline">¶</a></h1>
-<p>วันที่ปรับปรุงล่าสุด January 01, 2015</p>
+<p>วันที่ปรับปรุงล่าสุด January 04, 2015</p>
 <div class="section" id="sale-flow">
 <span id="id2"></span><h2>ขั้นตอนการขาย<a class="headerlink" href="#sale-flow" title="Permalink to this headline">¶</a></h2>
+<p>เอกสารสำคัญในการขาย คือ ใบเสนอราคา หรือ Quotation และใบสั่งซื้อ หรือ Sales Order
+ระบบ ERP กำหนดให้ทั้งสองอย่างนี้เป็นเอกสารชิ้นเดียวกัน  เพียงแต่อยู่ในสถานะที่แตกต่างกันเท่านั้น
+หมายเลขเอกสารจึงเป็นเลขเดียวกัน ใบสั่งซื้อ ก็คือ ใบเสนอราคาที่ได้รับการยืนยันการสั่งซื้อจากลูกค้าแล้วนั่นเอง</p>
+<p>ตอนการขายในระบบ ERP ประกอบไปด้วย</p>
+<ol class="arabic simple">
+<li>การสร้างใบเสนอราคา</li>
+<li>การยืนยันคำสั่งซื้อ</li>
+<li>การสร้างและติดตามใบส่งของ</li>
+</ol>
+<p>ในขณะนี้ ระบบ ERP ยังไม่ได้ทำการเชื่อมต่อกับขั้นตอนการออกใบกำกับภาษี (Invoice) และการเรียกเก็บเงินลูกค้า
+ดังนั้นขั้นตอนการขายจึงจบลงที่การสร้าง Delivery Order หรือใบส่งสินค้าเท่านั้น</p>
+<p>เอกสารทั้งสองนี้ ความจริงเป็นเอกสารชิ้นเดียวกัน</p>
+<table border="1" class="docutils">
+<caption>บทบาทหน้าที่</caption>
+<colgroup>
+<col width="23%" />
+<col width="77%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">ขั้นตอนการขาย</th>
+<th class="head">รายละเอียด</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>สร้างใบเสนอราคา</td>
+<td>เป็นหน้าที่ของฝ่ายขาย ระบุรายละเอียดเกี่ยวกับลูกค้า ชนิดและจำนวนของสินค้าที่ต้องการ รวมถึงข้อมูลการจัดส่ง แต่ Sales Admin ก็สามารถสร้างใบเสนอราคาได้เช่นกัน</td>
+</tr>
+<tr class="row-odd"><td>ยืนยันคำสั่งซื้อ</td>
+<td>เป็นหน้าที่ของ Sales Admin เป็นขั้นตอนตรวจสอบรายละเอียดต่างๆ เช่น มีสินค้าหรือไม่ ราคา/ส่วนลดถูกต้องหรือไม่ รวมถึงการประสานงานการจัดส่ง</td>
+</tr>
+<tr class="row-even"><td>จัดส่งสินค้า</td>
+<td>เป็นหน้าที่ของ  Warehouse Manager จัดเตรียมและจัดส่งสินค้า ตามใบส่งสินค้าที่สร้างขึ้น</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="create-quotation">
 <span id="id3"></span><h2>สร้างใบเสนอราคา<a class="headerlink" href="#create-quotation" title="Permalink to this headline">¶</a></h2>
@@ -69,6 +104,24 @@
 </div>
 <div class="section" id="confirm-edit-cancel">
 <span id="id7"></span><h2>ยืนยัน แก้ไข และยกเลิกคำสั่งซื้อ<a class="headerlink" href="#confirm-edit-cancel" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+<div class="section" id="heading-level-2">
+<h1>Heading Level 2<a class="headerlink" href="#heading-level-2" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="heading-level-3">
+<h2>Heading Level 3<a class="headerlink" href="#heading-level-3" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="heading-level-4">
+<h3>Heading Level 4<a class="headerlink" href="#heading-level-4" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="heading-level-5">
+<h4>Heading Level 5<a class="headerlink" href="#heading-level-5" title="Permalink to this headline">¶</a></h4>
+<div class="section" id="heading-level-6">
+<h5>Heading Level 6<a class="headerlink" href="#heading-level-6" title="Permalink to this headline">¶</a></h5>
+<div class="section" id="heading-level-7">
+<h6>Heading Level 7<a class="headerlink" href="#heading-level-7" title="Permalink to this headline">¶</a></h6>
+</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 
@@ -87,6 +140,22 @@
 <li><a class="reference internal" href="#discount-and-tax">ส่วนลดและภาษี</a></li>
 <li><a class="reference internal" href="#other-sale-info">ข้อมูลการขายอื่นๆ</a></li>
 <li><a class="reference internal" href="#confirm-edit-cancel">ยืนยัน แก้ไข และยกเลิกคำสั่งซื้อ</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#heading-level-2">Heading Level 2</a><ul>
+<li><a class="reference internal" href="#heading-level-3">Heading Level 3</a><ul>
+<li><a class="reference internal" href="#heading-level-4">Heading Level 4</a><ul>
+<li><a class="reference internal" href="#heading-level-5">Heading Level 5</a><ul>
+<li><a class="reference internal" href="#heading-level-6">Heading Level 6</a><ul>
+<li><a class="reference internal" href="#heading-level-7">Heading Level 7</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
