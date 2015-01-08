@@ -18,5 +18,6 @@
    warehouse
    master_data
    reports
+   usage_tips
    
   
